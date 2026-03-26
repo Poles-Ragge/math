@@ -37,7 +37,7 @@ Deno.test("1/3 + 2/6 = 2/3 is roughly 0.67", () => {
 // Math.sqrt(2)
 
 
-/*Deno.test("3/18 roughly 0.16", () => {
+Deno.test("3/18 roughly 0.16", () => {
 
   //Arrange
   const x = new Fraction(3, 18);
@@ -49,5 +49,21 @@ Deno.test("1/3 + 2/6 = 2/3 is roughly 0.67", () => {
   //Assert
 
   assertAlmostEquals(float, 0.16);
+
+});
+
+Deno.test("1 + 1.5 exacty 2.5", () => {
+
+  //Arrange
+  const x = new Fraction(1, 1);
+  const y = new Fraction(3, 2);
+
+  //Act
+
+   x.add(y);
+
+  //Assert
+
+  assertEquals(x.toNumber(), 2.5);
 
 });
