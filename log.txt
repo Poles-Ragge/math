@@ -1,0 +1,41 @@
+commit f96f6e365b013c76932f9cd154c8c91466277fb3
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:46:58 2026 +0100
+
+    geteilt durch 0 test gemacht
+
+commit 768efc0d73e08be0625b4152d2eeebf074769abc
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:41:24 2026 +0100
+
+    Divisor ist 0 Error hinzugefügt bei Fractions
+
+commit e90d66b108380aa46a7c7d077efa4452d6478c18
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:33:53 2026 +0100
+
+    Durchmesser Test bei geometry added
+
+commit ed45725a7463176ef80add9d56571224cfafef58
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:13:28 2026 +0100
+
+    zweiter test fractions
+
+commit be2cbc533bfea7245887df2635daab0a02c4426c
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:00:33 2026 +0100
+
+    erster test
+
+commit d858907ca52852cb7a321a8e0499a8bd3669f504
+Author: Patrick Bucher <patrick.bucher@sluz.ch>
+Date:   Sat Mar 14 20:10:18 2026 +0100
+
+    provide README
+
+commit eeeb9fc3253ec6562d444004ad9243a68ed34006
+Author: Patrick Bucher <patrick.bucher@sluz.ch>
+Date:   Sat Mar 14 20:05:12 2026 +0100
+
+    initial commit: code for arithmetic and geometry exercises
