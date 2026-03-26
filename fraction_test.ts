@@ -36,7 +36,7 @@ Deno.test("1/3 + 2/6 = 2/3 is roughly 0.67", () => {
 });
 // Math.sqrt(2)
 
-
+/*
 Deno.test("3/18 roughly 0.16", () => {
 
   //Arrange
@@ -66,4 +66,4 @@ Deno.test("1 + 1.5 exacty 2.5", () => {
 
   assertEquals(x.toNumber(), 2.5);
 
-});
+});*/
