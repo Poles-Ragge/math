@@ -1,10 +1,18 @@
 import { roundTo } from "./utils.ts";
 
 export class Fraction {
+  toNumber(): any {
+    throw new Error("Method not implemented.");
+  }
   constructor(
     private numerator: number,
     private denominator: number,
-  ) {}
+
+  ) {
+    if (denominator == 0) {
+      throw new Error("Denominator can't be 0")
+    }
+  }
 
   public add(other: Fraction) {
     const newNumerator =
