@@ -1,1 +1,2 @@
 import { gcdBruteForce } from "./gcd";
+
