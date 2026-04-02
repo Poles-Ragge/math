@@ -39,3 +39,134 @@ Author: Patrick Bucher <patrick.bucher@sluz.ch>
 Date:   Sat Mar 14 20:05:12 2026 +0100
 
     initial commit: code for arithmetic and geometry exercises
+commit 75aeb362d142391e80449972228fb46b3177b9c4
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Apr 2 22:24:14 2026 +0200
+
+    cancel methode verschoben, hat einen fehlerbehoben.
+
+commit 47ddbb1200691e3876137e478fd9a6c841adcb72
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Apr 2 22:22:24 2026 +0200
+
+    Aufgabe 4 auto-kuerzungen added + first TDD test
+
+commit a7044b5fc009f588eedf980a5ff274f3b2ca610d
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Apr 2 22:00:49 2026 +0200
+
+    test-names geaendert damit alles einheitlich ist
+
+commit ad98512c325be5364043c72c28bf3570e275e7a0
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Apr 2 21:57:38 2026 +0200
+
+    2 weitere test added
+
+commit b78835d43f4669fedaaa5e7106978b6cc1034839
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Apr 2 21:51:31 2026 +0200
+
+    euclid function added und einen test
+
+commit 232626d9b42b106eb92947dbce2a8a9b85f4a967
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Apr 2 21:38:55 2026 +0200
+
+    2. cancel test added
+
+commit 138bbe56cdf5a632da1ae4ab3f074bccb559705c
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Apr 2 21:37:46 2026 +0200
+
+    fehler behoben, wo das resultat nicht verkleinert wurde
+
+commit 4a7806f08c1790ad039f82cb80cc3d69edf1d1ca
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Apr 2 21:31:40 2026 +0200
+
+    fraction.cancel methode added und dazugehoerigen test
+
+commit 0e3fcfb5515ab7f1158b11b221cf5e7772ecfb6a
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Apr 2 21:11:37 2026 +0200
+
+    2 more tests added
+
+commit 10837103c031602fd16709b34d871346c98158bc
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Apr 2 21:00:15 2026 +0200
+
+    gcd test gefixt. Fehler gelöst und code geändert
+
+commit 766efb6574b7b259a60fc8ff403c00d9145cc2df
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Fri Mar 27 09:29:36 2026 +0100
+
+    erster gcd test
+
+commit 9ebaec178d5be3adc1e8e8327f4684de8832e429
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Fri Mar 27 09:15:01 2026 +0100
+
+    erster gcd function
+
+commit 6ab8e64e509fb6dfabcaa1d84c2edb816a22aa74
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Fri Mar 27 09:02:39 2026 +0100
+
+    Anfang von gcd und gcd_test
+
+commit d1dff9b6dadcfb3297e44138815f0c79e741c897
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Fri Mar 27 08:53:38 2026 +0100
+
+    history removed + gcd-files hinzugefuegt
+
+commit 587ea4e96430dee20a23d3dffee5d8cc2c0dd2df
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:54:33 2026 +0100
+
+    history und log file added for transparancy
+
+commit f96f6e365b013c76932f9cd154c8c91466277fb3
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:46:58 2026 +0100
+
+    geteilt durch 0 test gemacht
+
+commit 768efc0d73e08be0625b4152d2eeebf074769abc
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:41:24 2026 +0100
+
+    Divisor ist 0 Error hinzugefügt bei Fractions
+
+commit e90d66b108380aa46a7c7d077efa4452d6478c18
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:33:53 2026 +0100
+
+    Durchmesser Test bei geometry added
+
+commit ed45725a7463176ef80add9d56571224cfafef58
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:13:28 2026 +0100
+
+    zweiter test fractions
+
+commit be2cbc533bfea7245887df2635daab0a02c4426c
+Author: Luka Vucer <vucerluka@gmail.com>
+Date:   Thu Mar 26 21:00:33 2026 +0100
+
+    erster test
+
+commit d858907ca52852cb7a321a8e0499a8bd3669f504
+Author: Patrick Bucher <patrick.bucher@sluz.ch>
+Date:   Sat Mar 14 20:10:18 2026 +0100
+
+    provide README
+
+commit eeeb9fc3253ec6562d444004ad9243a68ed34006
+Author: Patrick Bucher <patrick.bucher@sluz.ch>
+Date:   Sat Mar 14 20:05:12 2026 +0100
+
+    initial commit: code for arithmetic and geometry exercises
