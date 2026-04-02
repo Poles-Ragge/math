@@ -64,20 +64,20 @@ Deno.test("Von 69/126 ist der ggT 3", () => {
   assertEquals(i.toString(), "23/42");
 });
 
-Deno.test("gcdEuclid: 18/27 -> 9", () => {
+Deno.test("Von 18/27 ist der ggt 9", () => {
 
   assertEquals(gcdEuclid(18, 27), 9);
 
 
 });
 
-Deno.test("gcdEucld: 69/126 => 3", () => {
+Deno.test("Von 69/126 ist der ggt 3", () => {
 
   assertEquals(gcdEuclid(69, 126), 3);
 
 });
 
-Deno.test("gcdEucld: 50/100 => 50", () => {
+Deno.test("Von 50/100 ist der ggt 50", () => {
 
   assertEquals(gcdEuclid(50, 100), 50);
 
