@@ -16,6 +16,26 @@ export class Fraction {
     this.cancel();
   }
 
+    public cancel(): void{
+
+    let gcd = (a: number, b: number): number => {
+      while (b !== 0) {
+
+        let i = b;
+        b = a % b;
+        a = i;
+
+      }
+      return a;
+    };
+
+    // Unten: Wird benötigt da ansonsten das resultat nicht von z.b 18/27 zu 2/3 verkleinert wird.
+    let commonDivisor = gcd(this.numerator, this.denominator);
+    this.numerator /= commonDivisor;
+    this.denominator /= commonDivisor;
+
+  }
+
   public add(other: Fraction) {
     const newNumerator =
       this.numerator * other.denominator + other.numerator * this.denominator;
@@ -69,28 +89,10 @@ export class Fraction {
       throw new Error(`non-numeric numerator/denominator`);
     }
     return new Fraction(numerator, denominator);
-    this.cancel();
+    
   }
 
-  public cancel(): void{
 
-    let gcd = (a: number, b: number): number => {
-      while (b !== 0) {
-
-        let i = b;
-        b = a % b;
-        a = i;
-
-      }
-      return a;
-    };
-
-    // Unten: Wird benötigt da ansonsten das resultat nicht von z.b 18/27 zu 2/3 verkleinert wird.
-    let commonDivisor = gcd(this.numerator, this.denominator);
-    this.numerator /= commonDivisor;
-    this.denominator /= commonDivisor;
-
-  }
 
   
 }
