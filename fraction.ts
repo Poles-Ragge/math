@@ -12,6 +12,8 @@ export class Fraction {
     if (denominator == 0) {
       throw new Error("Denominator can't be 0")
     }
+
+    this.cancel();
   }
 
   public add(other: Fraction) {
@@ -20,6 +22,7 @@ export class Fraction {
     const newDenominator = this.denominator * other.denominator;
     this.numerator = newNumerator;
     this.denominator = newDenominator;
+    this.cancel();
   }
 
   public subtract(other: Fraction) {
@@ -28,6 +31,7 @@ export class Fraction {
     const newDenominator = this.denominator * other.denominator;
     this.numerator = newNumerator;
     this.denominator = newDenominator;
+    this.cancel();
   }
 
   public multiply(other: Fraction) {
@@ -35,6 +39,7 @@ export class Fraction {
     const newDenominator = this.denominator * other.denominator;
     this.numerator = newNumerator;
     this.denominator = newDenominator;
+    this.cancel();
   }
 
   public divide(other: Fraction) {
@@ -42,6 +47,7 @@ export class Fraction {
     const newDenominator = this.denominator * other.numerator;
     this.numerator = newNumerator;
     this.denominator = newDenominator;
+    this.cancel();
   }
 
   public toFloat(precision: number): number {
@@ -63,6 +69,7 @@ export class Fraction {
       throw new Error(`non-numeric numerator/denominator`);
     }
     return new Fraction(numerator, denominator);
+    this.cancel();
   }
 
   public cancel(): void{

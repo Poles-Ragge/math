@@ -83,3 +83,27 @@ Deno.test("Von 50/100 ist der ggt 50", () => {
 
 });
 
+
+
+const fractionTests = [
+
+  { numerator: 2, denominator: 4, expected: "1/2" },
+  { numerator: 18, denominator: 27, expected: "2/3" },
+  { numerator: 69, denominator: 126, expected: "23/42" },
+  { numerator: 50, denominator: 100, expected: "1/2" },
+  { numerator: 5, denominator: 1, expected: "5/1" },
+  { numerator: 7, denominator: 7, expected: "1/1" },
+
+];
+
+Deno.test("Erster TDD-Test", () => {
+
+  for (const { numerator, denominator, expected } of fractionTests) {
+
+    const i = new Fraction(numerator, denominator);
+
+    assertEquals(i.toString(), expected);
+
+  }
+});
+
