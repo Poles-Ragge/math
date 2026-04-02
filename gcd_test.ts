@@ -1,4 +1,4 @@
-import { gcdBruteForce } from "./gcd.ts";
+import { gcdBruteForce, gcdEuclid } from "./gcd.ts";
 import { assertEquals } from "@std/assert";
 import { Fraction } from "./fraction.ts";
 
@@ -62,6 +62,13 @@ Deno.test("Von 69/126 ist der ggT 3", () => {
 
   // 69/126 reduced = 23/42
   assertEquals(i.toString(), "23/42");
+});
+
+Deno.test("gcdEuclid: 18/27 -> 9", () => {
+
+  assertEquals(gcdEuclid(18, 27), 9);
+
+
 });
 
 
