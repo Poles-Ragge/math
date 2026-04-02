@@ -78,6 +78,11 @@ export class Fraction {
       return a;
     };
 
+    // Unten: Wird benötigt da ansonsten das resultat nicht von z.b 18/27 zu 2/3 verkleinert wird.
+    let commonDivisor = gcd(this.numerator, this.denominator);
+    this.numerator /= commonDivisor;
+    this.denominator /= commonDivisor;
+
   }
 
   
