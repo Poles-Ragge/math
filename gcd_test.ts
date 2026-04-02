@@ -1,7 +1,7 @@
-import { gcdBruteForce } from "./gcd";
+import { gcdBruteForce } from "./gcd.ts";
 import {assertEquals } from "@std/assert";
 
-Deno.Test("Von 18/27 ist der ggT 9", () => {
+Deno.test("Von 18/27 ist der ggT 9", () => {
 
     const a:number = 18;
     const b:number = 27;
@@ -9,7 +9,8 @@ Deno.Test("Von 18/27 ist der ggT 9", () => {
 
     const i = gcdBruteForce(a, b,);
     
-    return i
+
+    assertEquals(i, 9);
 
 
 });

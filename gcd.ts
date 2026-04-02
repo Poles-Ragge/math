@@ -2,14 +2,18 @@
 
 export function gcdBruteForce(a: number, b: number): number{
 
-    var i:number = 2;
+    let gcd = 1;
 
-    while (a / i != b / i ){
-        if (a % i == 0 || b % i == 0){
-            i++
-        }
+    for (let i = 1; i <= Math.min(a, b); i++) { //notiz: || bedeutet "or", nicht "and". 
         
+        if (a % i === 0 && b % i === 0) {
+
+            gcd = i;
+
+        }
 
     }
-    return i;
+
+    return gcd;
 }
+
