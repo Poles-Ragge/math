@@ -71,4 +71,15 @@ Deno.test("gcdEuclid: 18/27 -> 9", () => {
 
 });
 
+Deno.test("gcdEucld: 69/126 => 3", () => {
+
+  assertEquals(gcdEuclid(69, 126), 3);
+
+});
+
+Deno.test("gcdEucld: 50/100 => 50", () => {
+
+  assertEquals(gcdEuclid(50, 100), 50);
+
+});
 
