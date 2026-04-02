@@ -1,5 +1,6 @@
 import { gcdBruteForce } from "./gcd.ts";
-import {assertEquals } from "@std/assert";
+import { assertEquals } from "@std/assert";
+import { Fraction } from "./fraction.ts";
 
 Deno.test("Von 18/27 ist der ggT 9", () => {
 
@@ -41,6 +42,16 @@ Deno.test("Von 69/126 ist der ggT 3", () => {
     assertEquals(i, 3);
 
 
+});
+
+
+Deno.test("Von 18/27 ist der ggT 9", () => {
+
+  const i = new Fraction(18, 27);
+
+  i.cancel();
+
+  assertEquals(i.toString(), "2/3");
 });
 
 

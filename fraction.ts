@@ -64,4 +64,21 @@ export class Fraction {
     }
     return new Fraction(numerator, denominator);
   }
+
+  public cancel(): void{
+
+    let gcd = (a: number, b: number): number => {
+      while (b !== 0) {
+
+        let i = b;
+        b = a % b;
+        a = i;
+
+      }
+      return a;
+    };
+
+  }
+
+  
 }
