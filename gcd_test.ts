@@ -54,4 +54,14 @@ Deno.test("Von 18/27 ist der ggT 9", () => {
   assertEquals(i.toString(), "2/3");
 });
 
+Deno.test("Von 69/126 ist der ggT 3", () => {
+
+  const i = new Fraction(69, 126);
+
+  i.cancel();
+
+  // 69/126 reduced = 23/42
+  assertEquals(i.toString(), "23/42");
+});
+
 
