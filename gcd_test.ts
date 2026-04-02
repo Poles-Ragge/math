@@ -15,3 +15,32 @@ Deno.test("Von 18/27 ist der ggT 9", () => {
 
 });
 
+Deno.test("Von 28/56 ist der ggT 28", () => {
+
+    const a:number = 28;
+    const b:number = 56;
+    
+
+    const i = gcdBruteForce(a, b,);
+    
+
+    assertEquals(i, 28);
+
+
+});
+
+Deno.test("Von 69/126 ist der ggT 3", () => {
+
+    const a:number = 69;
+    const b:number = 126;
+    
+
+    const i = gcdBruteForce(a, b,);
+    
+
+    assertEquals(i, 3);
+
+
+});
+
+
